@@ -7,10 +7,10 @@ The other dataset is log data stored in data/log_data.
 ## Project Template
 The project template includes four files:
 
-### create_table.py is where you'll create your fact and dimension tables for the star schema in Redshift.
-### etl.py is where you'll load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
-### sql_queries.py is where you'll define you SQL statements, which will be imported into the two other files above.
-### README.md is where you'll provide discussion on your process and decisions for this ETL pipeline.
+1. create_table.py is where you'll create your fact and dimension tables for the star schema in Redshift.
+2. etl.py is where you'll load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
+3. sql_queries.py is where you'll define you SQL statements, which will be imported into the two other files above.
+4. README.md is where you'll provide discussion on your process and decisions for this ETL pipeline.
 
 ## Schema 
 ### Fact Table
